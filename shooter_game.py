@@ -4,7 +4,7 @@ init()
 mixer.init()
 font.init()
 
-
+#aaa
 class  GameSprite(sprite.Sprite):
     def __init__ (self, image_file, x,y,speed):
         self.image = transform.scale(image.load(image_file), (65, 65))
